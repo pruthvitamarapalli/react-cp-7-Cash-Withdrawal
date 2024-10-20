@@ -1,0 +1,149 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  background-color: #d4d2db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.container {
+  background-color: #150b3e;
+  padding: 20px;
+  width: 75%;
+  border-radius: 15px;
+  max-width: 400px;
+}
+.user-details {
+  display: flex;
+}
+
+.initial {
+  align-self: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  background-color: #c7d2fe;
+}
+
+.user-details-container {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .cash-withdrawal-container {
+    width: 50%;
+    padding-top: 48px;
+    padding-left: 36px;
+    padding-bottom: 16px;
+    padding-right: 36px;
+    max-width: 422px;
+  }
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.initial {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding: 30px;
+}
+
+.username {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .initial-container {
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+  }
+  .username {
+    font-size: 20px;
+    margin-left: 16px;
+  }
+  .withdraw {
+    font-size: 24px;
+    margin-top: 24px;
+  }
+  .balance-amount {
+    font-size: 32px;
+  }
+  .your-balance {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  .choose-sum {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  .currency {
+    font-size: 12px;
+  }
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.your-balance {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.balance-amount {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.currency {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.choose-sum {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.denominations-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
